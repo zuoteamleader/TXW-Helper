@@ -1,0 +1,62 @@
+{
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "assets": [
+    "build/天学网助手V3_v3.9.0_back.apk",
+    "下载.js",
+    "修改.js",
+    "速通.js",
+    "答案.js",
+    "权限.js",
+    "更换.js",
+    "访问.js",
+    "更新.js",
+    "选择.js",
+    "images/ic_app_logo.png",
+    "images/ic_splash.png",
+    "删除.js",
+    "解析.js",
+    "saf.js",
+    "project.json"
+  ],
+  "build": {
+    "build_id": "B72FED14-4",
+    "build_number": 4,
+    "build_time": 1659841959481,
+    "release": false
+  },
+  "encryptLevel": 3,
+  "useFeatures": [],
+  "icon": "images/ic_app_logo.png",
+  "launchConfig": {
+    "displaySplash": false,
+    "hideLogs": true,
+    "splashIcon": "images/ic_splash.png",
+    "splashText": "back",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "天学网助手V3_开源版",
+  "optimization": {
+    "obfuscateComponents": true,
+    "removeAccessibilityService": true,
+    "removeOpenCv": true,
+    "unusedResources": true
+  },
+  "packageName": "com.up366.answer",
+  "permissionConfig": {
+    "requestListOnStartup": [
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ]
+  },
+  "scripts": {},
+  "signingConfig": {
+    "alias": "1234567890",
+    "keystore": "/storage/emulated/0/脚本/.keystore/zuoteamleader.jks",
+    "uuid": "a2bf1cd9-7fa1-4e28-b133-251889d42d33"
+  },
+  "versionCode": 25,
+  "versionName": "3.9.1_back"
+}
